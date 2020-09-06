@@ -1,14 +1,14 @@
 {
   "name": "changelog-generator-demo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version",
-    "release:minor": "standard-version",
-    "release:major": "standard-version",
-    "release:patch": "standard-version"
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "author": "",
   "license": "ISC",
