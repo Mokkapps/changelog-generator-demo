@@ -9,8 +9,7 @@
       {"type": "perf", "hidden": true},
       {"type": "test", "hidden": true}
     ],
-    "commitUrlFormat": "https://app-gitlab-v1.fhm.de/ucp-distribution/ld-segmentation-tool/-/commit/{{hash}}",
-    "compareUrlFormat": "https://app-gitlab-v1.fhm.de/ucp-distribution/ld-segmentation-tool/-/merge_requests/new?utf8=%E2%9C%93&merge_request%5Bsource_project_id%5D=1264&merge_request%5Bsource_branch%5D={{previousTag}}&merge_request%5Btarget_project_id%5D=1264&merge_request%5Btarget_branch%5D={{currentTag}}",
-    "issueUrlFormat": "https://jira.atlas.p7s1.net/browse/{{id}}"
+    "commitUrlFormat": "https://github.com/mokkapps/changelog-generator-demo/commits/{{hash}}",
+    "compareUrlFormat": "https://github.com/mokkapps/changelog-generator-demo//compare/{{previousTag}}...{{currentTag}}"
   }
   
