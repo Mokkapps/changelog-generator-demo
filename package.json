@@ -14,14 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.2",
-    "husky": "^4.2.5",
-    "standard-version": "^9.0.0"
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^6.0.0",
+    "standard-version": "^9.2.0"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+  "devDependencies": {
+    "husky": "^6.0.0"
   }
 }
